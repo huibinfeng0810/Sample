@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="calllog_spinner_text">
+        <item>全部记录</item>
+        <item>未接来电</item>
+        <item>拨出号码</item>
+        <item>呼入号码</item>
+    </string-array>
+
+
+</resources>
