@@ -15,7 +15,12 @@
             </intent-filter>
         </activity>
 
+
         <activity android:name="spinner.SpinnerActivity"></activity>
+        <activity android:name="service.ServiceActivity"></activity>
+
+        <!--service-->
+        <service android:name="service.RemoteService"></service>
 
 
     </application>

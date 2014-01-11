@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import service.ServiceActivity;
 import spinner.SpinnerActivity;
 
 import java.util.Arrays;
@@ -17,7 +18,8 @@ public class MyActivity extends ListActivity {
      * Called when the activity is first created.
      */
     private static final List<ActivityInfo> activityinfos = Arrays.asList(
-            new ActivityInfo(SpinnerActivity.class, R.string.spinner)
+            new ActivityInfo(SpinnerActivity.class, R.string.spinner),
+            new ActivityInfo(ServiceActivity.class, R.string.service)
     );
 
 
