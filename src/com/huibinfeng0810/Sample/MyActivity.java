@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import popuwindow.PopuWindowActivity;
 import service.ServiceActivity;
 import spinner.SpinnerActivity;
 
@@ -19,7 +20,8 @@ public class MyActivity extends ListActivity {
      */
     private static final List<ActivityInfo> activityinfos = Arrays.asList(
             new ActivityInfo(SpinnerActivity.class, R.string.spinner),
-            new ActivityInfo(ServiceActivity.class, R.string.service)
+            new ActivityInfo(ServiceActivity.class, R.string.service),
+            new ActivityInfo(PopuWindowActivity.class, R.string.popu)
     );
 
 

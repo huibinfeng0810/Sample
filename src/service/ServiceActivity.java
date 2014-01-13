@@ -57,6 +57,7 @@ public class ServiceActivity extends Activity implements View.OnClickListener {
         }
     }
 
+
     private void bindRemoteService() {
         Intent intent = new Intent(this, RemoteService.class);
         bindService(intent, mServiceConnection, BIND_AUTO_CREATE);
