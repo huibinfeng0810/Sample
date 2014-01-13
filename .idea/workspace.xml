@@ -17,18 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f53f2572-3ad4-4495-b66e-a4a992c0d54f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/click.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/grouplist_item_bg_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/popuwindow/PopuWindowActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_popu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/dialog.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/text.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/huibinfeng0810/Sample/MyActivity.java" afterPath="$PROJECT_DIR$/src/com/huibinfeng0810/Sample/MyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/ServiceActivity.java" afterPath="$PROJECT_DIR$/src/service/ServiceActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/dialog.xml" afterPath="$PROJECT_DIR$/res/layout/dialog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/text.xml" afterPath="$PROJECT_DIR$/res/layout/text.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Sample.iws" />
@@ -96,7 +86,7 @@
       <file leaf-file-name="PopuWindowActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/popuwindow/PopuWindowActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="61" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.6142558" vertical-offset="926" max-vertical-offset="1610">
+            <state line="53" column="61" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.4696017" vertical-offset="995" max-vertical-offset="1610">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2081#2082#0" expanded="true" />
@@ -618,6 +608,11 @@
       <created>1389154391043</created>
       <updated>1389154391043</updated>
     </task>
+    <task id="LOCAL-00001" summary="add pupowindow&#10;">
+      <created>1389580858465</created>
+      <updated>1389580858465</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -665,6 +660,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="add pupowindow&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pupowindow&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -834,7 +831,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/popuwindow/PopuWindowActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="61" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.6142558" vertical-offset="926" max-vertical-offset="1610">
+        <state line="53" column="61" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.4696017" vertical-offset="995" max-vertical-offset="1610">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2081#2082#0" expanded="true" />
