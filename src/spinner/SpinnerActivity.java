@@ -27,7 +27,5 @@ public class SpinnerActivity extends Activity {
                 R.array.calllog_spinner_text, R.layout.calllog_spinner_item);
         mSpinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mSpinner.setAdapter(mSpinnerAdapter);
-
     }
-
 }

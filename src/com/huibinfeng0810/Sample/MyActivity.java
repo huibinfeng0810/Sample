@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import popuwindow.PopuWindowActivity;
 import service.ServiceActivity;
+import slidingmenu.activity.SlidingTestActivity;
 import spinner.SpinnerActivity;
 
 import java.util.Arrays;
@@ -21,7 +22,8 @@ public class MyActivity extends ListActivity {
     private static final List<ActivityInfo> activityinfos = Arrays.asList(
             new ActivityInfo(SpinnerActivity.class, R.string.spinner),
             new ActivityInfo(ServiceActivity.class, R.string.service),
-            new ActivityInfo(PopuWindowActivity.class, R.string.popu)
+            new ActivityInfo(PopuWindowActivity.class, R.string.popu),
+            new ActivityInfo(SlidingTestActivity.class, R.string.sliding)
     );
 
 

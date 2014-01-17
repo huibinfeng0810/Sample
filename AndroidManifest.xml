@@ -18,6 +18,8 @@
 
         <activity android:name="spinner.SpinnerActivity"></activity>
         <activity android:name="service.ServiceActivity"></activity>
+        <activity android:name="popuwindow.PopuWindowActivity"></activity>
+        <activity android:name="slidingmenu.activity.SlidingTestActivity"></activity>
 
         <!--service-->
         <service android:name="service.RemoteService"></service>

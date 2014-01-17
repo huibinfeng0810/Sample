@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.Window;
 import android.widget.*;
 import com.huibinfeng0810.Sample.R;
 
@@ -23,7 +24,20 @@ public class PopuWindowActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_popu);
+        button = (Button) findViewById(R.id.tv_title);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                button.getTop();
+                int y = button.getBottom() * 3 / 2;
+                int x = getWindowManager().getDefaultDisplay().getWidth() / 4;
+
+                showPopupWindow(x, y);
+            }
+        });
 
     }
 

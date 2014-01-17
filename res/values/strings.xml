@@ -9,4 +9,5 @@
     <string name="local_service_started">local service started</string>
     <string name="service">service</string>
     <string name="popu">popu</string>
+    <string name="sliding">sliding</string>
 </resources>
