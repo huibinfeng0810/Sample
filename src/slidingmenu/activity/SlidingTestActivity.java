@@ -46,7 +46,6 @@ public class SlidingTestActivity extends SlidingFragmentActivity implements Cust
         sm.setBehindOffsetRes(R.dimen.slidingmenu_offset);
         sm.setFadeDegree(0.35f);
 
-
         mViewPager = new ViewPager(this);
         mViewPager.setId(VP_ID);
         mViewPager.setAdapter(new IMPagerAdapter(getSupportFragmentManager()));
