@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import menu.MenuForChange;
 import popuwindow.PopuWindowActivity;
+import search.SearchableActivity;
 import service.ServiceActivity;
 import slidingmenu.activity.SlidingTestActivity;
 import spinner.SpinnerActivity;
@@ -23,7 +25,9 @@ public class MyActivity extends ListActivity {
             new ActivityInfo(SpinnerActivity.class, R.string.spinner),
             new ActivityInfo(ServiceActivity.class, R.string.service),
             new ActivityInfo(PopuWindowActivity.class, R.string.popu),
-            new ActivityInfo(SlidingTestActivity.class, R.string.sliding)
+            new ActivityInfo(SlidingTestActivity.class, R.string.sliding),
+            new ActivityInfo(MenuForChange.class, R.string.menu1),
+            new ActivityInfo(SearchableActivity.class, R.string.search)
     );
 
 

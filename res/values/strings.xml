@@ -10,4 +10,13 @@
     <string name="service">service</string>
     <string name="popu">popu</string>
     <string name="sliding">sliding</string>
+
+
+    <string name="menu1">menu1</string>
+    <string name="menu2">menu2</string>
+    <string name="menu3">menu3</string>
+    <string name="menu4">menu4</string>
+
+    <string name="search">search</string>
+
 </resources>

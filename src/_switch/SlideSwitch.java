@@ -289,7 +289,6 @@ public class SlideSwitch extends View
 				SlideSwitch.this.postInvalidate();
 			}
 		}
-
 	}
 
 	public static interface OnSwitchChangedListener
