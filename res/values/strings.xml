@@ -19,4 +19,8 @@
 
     <string name="search">search</string>
 
+    <string name="font_shadow">font_shadow</string>
+
+    <string name="loader">loader</string>
+
 </resources>

@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import font_shadow.FontShadowActivity;
+import loader.ContactSearchFragment;
 import menu.MenuForChange;
 import popuwindow.PopuWindowActivity;
 import search.SearchableActivity;
@@ -27,7 +29,9 @@ public class MyActivity extends ListActivity {
             new ActivityInfo(PopuWindowActivity.class, R.string.popu),
             new ActivityInfo(SlidingTestActivity.class, R.string.sliding),
             new ActivityInfo(MenuForChange.class, R.string.menu1),
-            new ActivityInfo(SearchableActivity.class, R.string.search)
+            new ActivityInfo(SearchableActivity.class, R.string.search),
+            new ActivityInfo(FontShadowActivity.class, R.string.font_shadow),
+            new ActivityInfo(ContactSearchFragment.class, R.string.loader)
     );
 
 
